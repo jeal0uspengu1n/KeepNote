@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/Keeper-App-React/static/js/main.10f78e8a.js",
-    "index.html": "/Keeper-App-React/index.html",
-    "main.10f78e8a.js.map": "/Keeper-App-React/static/js/main.10f78e8a.js.map"
+    "main.js": "/KeepNote/static/js/main.10f78e8a.js",
+    "index.html": "/KeepNote/index.html",
+    "main.10f78e8a.js.map": "/KeepNote/static/js/main.10f78e8a.js.map"
   },
   "entrypoints": [
     "static/js/main.10f78e8a.js"
