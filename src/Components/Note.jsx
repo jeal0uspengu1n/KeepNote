@@ -1,32 +1,17 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
-import notes from "../notes"
 
+function Note(props) {
+  function handleClick() {
+    props.onDelete(props.id);
+  }
 
-function Card(props){
   return (
     <div className="note">
       <h1>{props.title}</h1>
       <p>{props.content}</p>
+      <button onClick={handleClick} class="btn btn-outline-danger"><i class="fa fa-trash"></i></button>
     </div>
-  )
-}
-
-function Note(){
-  return (
-    <div>
-    {notes.map((x) => {
-        return (
-          <Card
-          key={x.id}
-          title={x.title}
-          content={x.content}
-          />
-        )
-      })
-    }
-    </div>
-  )
+  );
 }
 
 export default Note;
