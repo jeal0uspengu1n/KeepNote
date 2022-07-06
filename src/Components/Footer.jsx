@@ -8,7 +8,7 @@ function Footer(){
       <p>Made with ❤️ by Sutej</p>
       <a href="https://twitter.com/jeal0uspengu1n" class="fa fa-twitter fa-lg"></a>&nbsp;&nbsp;&nbsp;
       <a href="https://github.com/jeal0uspengu1n" class="fa fa-github fa-lg"></a>&nbsp;&nbsp;&nbsp;
-      <a href="https://www.linkedin.com/in/sutej-s-90177a134//" class="fa fa-linkedin fa-lg"></a>&nbsp;&nbsp;&nbsp;
+      <a href="https://www.linkedin.com/in/sutejsharma/" class="fa fa-linkedin fa-lg"></a>&nbsp;&nbsp;&nbsp;
     </div>
   </footer>)
 }
